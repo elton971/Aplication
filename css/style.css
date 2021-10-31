@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, black, red);
+    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
     height: 100px;
 }
 
@@ -21,6 +21,7 @@ header {
 .logo {
     width: 178px;
     height: 65px;
+    margin-left: 40px;
 }
 
 #cabecalho>nav {
@@ -38,4 +39,23 @@ header {
 a {
     text-decoration: none;
     color: white;
+}
+
+.conteiner_Total {
+    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
+    display: flex;
+    height: 700px;
+}
+
+.conteine1 {
+    margin: 200px 0px 0px 50px;
+}
+
+.conteine1>h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.imagemfone {
+    margin-right: 70px;
 }
