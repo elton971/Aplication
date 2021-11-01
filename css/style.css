@@ -15,25 +15,27 @@ header {
 }
 
 #cabecalho {
+    display: flex;
     padding: 20px;
+    justify-content: center;
 }
 
 .logo {
-    width: 178px;
-    height: 65px;
-    margin-left: 40px;
+    width: 20%;
+    max-height: 100px;
 }
 
-#cabecalho>nav {
-    display: inline;
-    float: right;
-    margin: 20px;
-    font-size: 1.1em;
-    font-weight: bold;
+.menu {
+    padding-top: 20px;
+    margin-left: 350px;
 }
 
 .menu>a {
-    margin-left: 100px;
+    padding: 30px;
+}
+
+.menu>a:hover {
+    color: #99e2c1;
 }
 
 a {
@@ -42,20 +44,56 @@ a {
 }
 
 .conteiner_Total {
-    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
     display: flex;
-    height: 700px;
+    max-height: 688px;
+    justify-content: center;
+    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
+    color: white;
 }
 
 .conteine1 {
-    margin: 200px 0px 0px 50px;
+    margin: 200px 10px 0px 50px;
+    max-height: 100px;
+    max-width: 800px;
+    padding: 20px;
 }
 
 .conteine1>h1 {
     margin-bottom: 30px;
     font-size: 40px;
+    font-weight: normal;
+}
+
+.conteine1>p {
+    padding-bottom: 30px;
+}
+
+.conteine1>a {
+    margin: 40px 3px;
+    padding: 20px 40px 20px 40px;
+}
+
+.linkLearn {
+    outline: 2px solid #f6f6f6;
+    /* Set the outline width and style */
+}
+
+.linkLearn:hover {
+    color: #1EA9FA;
+    background: white;
+}
+
+.obter:hover {
+    background: rgb(127, 4, 175);
+    outline: 3px solid rgb(127, 4, 175);
+}
+
+.obter {
+    background: rgb(172, 14, 235);
+    outline: 3px solid rgb(172, 14, 235);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.212);
 }
 
 .imagemfone {
-    margin-right: 70px;
+    margin-left: 100px;
 }
