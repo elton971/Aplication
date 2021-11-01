@@ -11,23 +11,25 @@ body {
 
 header {
     background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
-    height: 100px;
 }
 
 #cabecalho {
     display: flex;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .logo {
-    width: 20%;
-    max-height: 100px;
+    max-height: 100%;
+    margin-left: 5%;
 }
 
 .menu {
     padding-top: 20px;
-    margin-left: 350px;
 }
 
 .menu>a {
@@ -43,12 +45,18 @@ a {
     color: white;
 }
 
+.mainArticle {
+    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
+}
+
 .conteiner_Total {
     display: flex;
-    max-height: 688px;
-    justify-content: center;
-    background-image: linear-gradient(to right, #1EA9FA, #1BDE86);
+    justify-content: space-between;
     color: white;
+    max-height: 688px;
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .conteine1 {
