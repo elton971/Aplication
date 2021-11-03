@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+html {
+    font-size: 62.5%;
+    /* a cada 1em teremos 10px*/
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
@@ -17,7 +22,7 @@ header {
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    height: 100px;
+    height: 10rem;
     width: 90%;
     max-width: 1440px;
     margin: auto;
@@ -29,11 +34,12 @@ header {
 }
 
 .menu {
-    padding-top: 20px;
+    display: flex;
 }
 
 .menu>a {
     padding: 30px;
+    font-size: 1.5rem;
 }
 
 .menu>a:hover {
@@ -68,17 +74,19 @@ a {
 
 .conteine1>h1 {
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: normal;
 }
 
 .conteine1>p {
     padding-bottom: 30px;
+    font-size: 2rem;
 }
 
 .conteine1>a {
     margin: 40px 3px;
     padding: 20px 40px 20px 40px;
+    font-size: 2rem;
 }
 
 .linkLearn {
@@ -103,5 +111,7 @@ a {
 }
 
 .imagemfone {
-    margin-left: 100px;
+    margin-left: 10rem;
 }
+
+@media (max-width:900px) {}
